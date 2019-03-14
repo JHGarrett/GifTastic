@@ -14,9 +14,8 @@
         <!-- custom css -->
         <link rel="stylesheet" href="assets/css/style.css">
     
-    
         <!-- fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
     
         <!-- favicon -->
         <link rel="shortcut icon" href="assets/images/favicon.ico"/>
@@ -27,15 +26,26 @@
 </head>
 <body>
 
+<!-- Jumbotron -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Funny Movies</h1>
+        </div>   
 
+<!-- div for movie buttons -->      
+        <div id="movies-view"></div>    
 
+<!-- user input to add movies -->        
+        <form id="movieBtn">             
+            <label for="movie-input">Movie Name: </label>
+            <input type="text" id="movie-input" onfocus="this.value='';">                                  
+            <input id="add-movie" type="submit" value="Submit movie">
+        </form>     
 
-
-
-
-
-
-
+<!-- div where GIFs go -->        
+        <div id ="GIFArea"></div>        
+        
+    </div>  <!--end container-->
 
     <!-- link to JS file -->
     <script src="assets/javascript/app.js"></script>
