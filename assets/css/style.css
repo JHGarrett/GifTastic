@@ -1,1 +1,75 @@
 /* font-family: 'Sniglet', cursive; */
+
+
+.jumbotron{           /* to style the title*/
+    font-size: 43px;
+    border: solid 5px rgb(125, 40, 204);
+    color: #fff;
+    background: #000;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right:20%;    
+    padding: 15px;     
+}
+
+body {                /* style for the body and background image */
+    background-image: url('../images/background.jpeg'); 
+    /* background-repeat: repeat; */
+    background-size: 100%;   
+    background-color: #000;
+        
+}
+
+button{             /* button styles */
+    margin: 3px;
+    border: solid 2px rgb(125, 40, 204);
+    color: #fff;
+    background-color: #000;
+}
+
+button:hover{       /* button hover styles */
+    background-color: rgb(125, 40, 204);        
+}
+
+button:active{     /* button active styles */
+    background-color: #fff;
+    outline: none;
+}
+
+button:focus{     
+    outline: 0;
+}
+
+#add-movie,
+#movie-input{     /* button styles */
+    border: solid 2px rgb(125, 40, 204);
+    color: #fff;
+    background-color: #000;
+}
+
+#movie-input:focus{  /* button focus styles */
+    outline: 0;
+}
+
+#add-movie:hover{    /* button hover styles */
+    background-color: rgb(125, 40, 204);   
+}
+
+#add-movie:active{  /* button active styles */
+    background-color: #fff;
+    outline: none;
+}
+
+#add-movie:focus{   /* button focus styles */
+    outline: 0;
+}
+
+label{             /* label styles */
+    color: #fff;
+}
+
+#GIFArea{          /* gif styles */
+    display: flex;
+    flex-wrap: wrap;    
+}
