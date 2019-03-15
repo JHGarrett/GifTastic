@@ -20,6 +20,10 @@ body {                /* style for the body and background image */
     background-color: #000;
         
 }
+p{
+    color: grey;
+    display: flex,
+}
 
 button{             /* button styles */
     margin: 3px;
